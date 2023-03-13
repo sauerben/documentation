@@ -157,6 +157,7 @@ the parameter `depth` from configuration file.
   ```yml
   # .gitlab-ci.yml
   variables:
+    GIT_FETCH_EXTRA_FLAGS: --unshallow
     GIT_DEPTH: 0
   ```
 
